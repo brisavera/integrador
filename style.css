@@ -144,16 +144,19 @@ main {
   padding: 30px 30px;
 }
 
-#cards-info {
+#cards-section {
   display: flex;
   flex-direction: column;
-
   text-align: center;
   gap: 30px;
-  padding: 70px 0;
+  padding: 70px 0px;
   width: 95%;
 }
 
+#cards-section h2 {
+  font-family: "Raleway", sans-serif;
+  color: #424b9b;
+}
 .cards-container {
   display: flex;
   justify-content: center;
@@ -167,4 +170,24 @@ main {
   flex-direction: column;
   gap: 20px;
   width: 300px;
+  font-family: "Raleway", sans-serif;
+  border: 2px solid #424b9b;
+  padding: 20px;
+  border-radius: 20px;
+  color: #424b9b;
+  opacity: 80%;
+}
+
+.card:hover {
+  color: #424b9b;
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.card img {
+  border-radius: 5%;
+}
+
+hr {
+  color: #424b9b;
 }
