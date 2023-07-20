@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(231, 231, 228, 255);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  padding: 0px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(231, 231, 228, 255);
+  border: 1px solid #424b9b;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+.logo-estudio img {
+  width: 50%;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  font-size: large;
+  position: relative;
+  padding: 0;
+}
+
+.navbar a:hover {
+  color: rgba(66, 75, 155, 255);
+  transition: all 0.5s;
+}
+
+.navbar a::after {
+  content: "";
+  background-color: #424b9b;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.15s ease;
+  transform-origin: bottom right;
+}
+
+.navbar a:hover::after {
+  color: rgba(66, 75, 155, 255);
+  transition: all 0.5s;
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#hero {
+  display: flex;
+  padding: 70px 0px;
+}
+
+.h1 h1 {
+  font-size: 300px;
+  color: #000000;
+}
+
+.h1 h1:hover {
+  color: rgba(66, 75, 155, 255);
+  transform: scaleX(1);
+  transition: all 0.9s;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.h1 h1 {
+  animation: tracking-in-contract-bck 4s linear;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 850px;
+}
+
+#about p {
+  font-family: "Raleway", sans-serif;
+  text-align: justify;
+}
+
+#about p:hover {
+  transition: all 0.9s;
+  font-size: 17px;
+  color: white;
+  background-image: url(/imgs/fondo.jpg);
+  padding: 30px 30px;
+}
+
+#cards-info {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  gap: 30px;
+  padding: 70px 0;
+  width: 95%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
