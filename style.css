@@ -140,7 +140,7 @@ main {
   transition: all 0.9s;
   font-size: 17px;
   color: white;
-  background-image: url(/imgs/fondo.jpg);
+  background-image: url(./imgs/fondo.jpg);
   padding: 30px 30px;
 }
 
