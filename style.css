@@ -176,6 +176,7 @@ main {
   border-radius: 20px;
   color: #424b9b;
   opacity: 80%;
+  box-shadow: #424b9b 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .card:hover {
@@ -190,4 +191,15 @@ main {
 
 hr {
   color: #424b9b;
+}
+
+.user-pages ul {
+  display: flex;
+  align-items: center
+  gap: 15px;
+  padding: 20px 20px 20px;
+}
+
+.user-pages a {
+    display: flex;
 }
