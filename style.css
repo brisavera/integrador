@@ -45,6 +45,10 @@ main {
   padding: 0;
 }
 
+#menu-toggle,
+.menu-label {
+  display: none;
+}
 .navbar a:hover {
   color: rgba(66, 75, 155, 255);
   transition: all 0.5s;

@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  * {
+    border: solid red;
+  }
+  .header {
+    position: absolute;
+    top: 60px;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    border-top: 0;
+  }
+}
