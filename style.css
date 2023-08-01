@@ -45,8 +45,7 @@ main {
   padding: 0;
 }
 
-#menu-toggle,
-.menu-label {
+#toggle-menu {
   display: none;
 }
 .navbar a:hover {

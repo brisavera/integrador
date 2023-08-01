@@ -11,4 +11,11 @@
     text-align: center;
     border-top: 0;
   }
+  #about p {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
 }
