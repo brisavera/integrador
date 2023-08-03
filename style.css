@@ -24,6 +24,7 @@ main {
   justify-content: center;
   background-color: rgba(231, 231, 228, 255);
   border: 1px solid #424b9b;
+  z-index: 1;
 }
 
 .nav ul {
@@ -45,9 +46,6 @@ main {
   padding: 0;
 }
 
-#toggle-menu {
-  display: none;
-}
 .navbar a:hover {
   color: rgba(66, 75, 155, 255);
   transition: all 0.5s;
@@ -290,4 +288,14 @@ footer {
   padding: 35px 0;
   font-size: 14px;
   font-family: "Martel Sans", sans-serif;
+}
+
+.nav i {
+  font-size: 26px;
+  display: none;
+  color: #424b9b;
+}
+
+#toggle-menu {
+  display: none;
 }

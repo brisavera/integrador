@@ -1,0 +1,54 @@
+@media (max-width: 992px) {
+  .h1 h1 {
+    font-size: 300px;
+  }
+  #cards-section h2 {
+    font-size: 60px;
+  }
+
+  .card {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav ul {
+    background-color: gainsboro;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: calc(100vh-80px);
+    top: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .user-pages ul {
+    display: none;
+  }
+  .nav i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .navbar {
+    display: flex;
+  }
+
+  .h1 h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 110px;
+  }
+
+  #about p {
+    font-size: 13px;
+  }
+
+  #cards-section h2 {
+    font-size: 40px;
+  }
+}
