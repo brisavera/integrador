@@ -13,16 +13,18 @@
 
 @media (max-width: 576px) {
   .nav ul {
-    background-color: gainsboro;
+    background-color: rgba(231, 231, 228, 255);
     position: absolute;
     width: 100%;
     left: 0;
     height: calc(100vh-80px);
-    top: 80px;
+    top: 90px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     display: none;
+    opacity: 100%;
+    padding: 30px 10px;
   }
 
   .user-pages ul {
