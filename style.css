@@ -79,7 +79,6 @@ main {
 .h1 h1 {
   font-size: 600px;
   color: #000000;
-  z-index: 1;
 }
 
 .h1 h1:hover {
